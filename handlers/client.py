@@ -4,6 +4,7 @@ from keyboard import kb_client
 from aiogram.types import ReplyKeyboardRemove
 from data_base import sqlite_db
 
+
 # @dp.message_handler(commands=['start', 'help'])
 async def command_start(message: types.Message):
     try:
@@ -22,8 +23,10 @@ async def pizza_open_command(message: types.Message):
 async def pizza_place_command(message: types.Message):
     await bot.send_message(message.from_user.id, 'ул. Куйбышева, 63', reply_markup=ReplyKeyboardRemove())
 
-async def pizza_menu_command(message : types.Message):
+
+async def pizza_menu_command(message: types.Message):
     await sqlite_db.sql_read(message)
+
 
 def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(command_start, commands=['start', 'help'])
