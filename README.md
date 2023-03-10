@@ -8,10 +8,15 @@ Recognizable commands:
 Client access:
 
 /Режим_работы - shows working hours 
+
 /Расположение - shows cafe location 
+
 /Меню - shows menu
+
 
 Admin access:
 
 /Загрузить - to load some information in menu
+
 /Удалить - to remove some information from menu
+
