@@ -3,9 +3,9 @@ This bot is created for Telegram by aiogram Python library. You can find it at @
 
 It can work in groups and in private messages as well. The functionality allows to add/delete information about pizzas (only for groups moderators), show working hours (in case of cafe) and location (in case of cafe as well), and menu with pizzas. 
 
-Recognizable commands:
+<i>Recognizable commands:</i>
 
-Client access:
+<b>Client access: </b>
 
 /Режим_работы - shows working hours 
 
@@ -14,7 +14,7 @@ Client access:
 /Меню - shows menu
 
 
-Admin access:
+<b>Admin access:</b>
 
 /Загрузить - to load some information in menu
 
